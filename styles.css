@@ -1,0 +1,39 @@
+#blue-box, #green-box, #red-box{
+    font-family: "SF Pro Display", serif;
+}
+#red-box{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+#red-box > p{
+    font-size: 20px;
+}
+#green-box{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+#green-box > p{
+    font-size: 20px;
+}
+#blue-box{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+#blue-box > p{
+    font-size: 20px;
+}
+/*#red-box, #green-box{
+    display: inline;
+}
